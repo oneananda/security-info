@@ -1,8 +1,8 @@
 ﻿// Description: This code defines a UsersController in an ASP.NET Core application that has a vulnerability due to a missing access check on an endpoint.
 // Vulnerable Code (Broken Access Control)
+
 using Microsoft.AspNetCore.Mvc;
 using MyApplication.Services.Interfaces;
-
 
 [ApiController]
 [Route("api/[controller]")]
