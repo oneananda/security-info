@@ -10,3 +10,7 @@
    *Demo:* Storing passwords in plain text or transmitting data over HTTP.
    *Fix:* Use HTTPS everywhere, encrypt sensitive data, and hash passwords with strong algorithms like bcrypt.
 
+3. **Injection (SQL Injection)**
+    Malicious input can alter backend queries or commands, leading to data leaks or full control.
+    Demo: A login form vulnerable to SQL injection.
+    Fix: Use parameterized queries and ORM tools to sanitize input.
