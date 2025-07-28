@@ -13,4 +13,8 @@
 3. **Injection (SQL Injection)**
     Malicious input can alter backend queries or commands, leading to data leaks or full control.
     Demo: A login form vulnerable to SQL injection.
-    Fix: Use parameterized queries and ORM tools to sanitize input.
+    Fix: Use parameterized queries and ORM tools to sanitize input.        
+4. **Insecure Design**
+    The application design itself is insecure—e.g., missing logic to enforce business rules.
+    Demo: Users repeatedly abusing a discount feature.
+    Fix: Apply secure design principles and perform threat modeling early.
