@@ -17,3 +17,5 @@ public IActionResult Checkout(OrderRequest request)
     // Proceed with order
     return Ok(new { Total = finalAmount });
 }
+
+// ❌ Attacker gets everything for free by modifying the request in Postman or DevTools.
