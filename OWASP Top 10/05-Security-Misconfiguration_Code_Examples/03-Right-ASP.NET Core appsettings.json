@@ -1,0 +1,5 @@
+﻿if (env.IsProduction())
+{
+    app.UseExceptionHandler("/Error"); // ✅ Show generic error page
+    app.UseHsts();
+}
