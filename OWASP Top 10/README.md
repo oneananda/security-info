@@ -18,3 +18,8 @@
     The application design itself is insecure—e.g., missing logic to enforce business rules.
     Demo: Users repeatedly abusing a discount feature.
     Fix: Apply secure design principles and perform threat modeling early.
+
+5. **Security Misconfiguration**
+    Misconfigured software, servers, or apps leave vulnerabilities open.
+    Demo: Exposing development/debug mode or default admin passwords.
+    Fix: Harden configurations, disable unnecessary features, and regularly audit deployments.
