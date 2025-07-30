@@ -22,4 +22,9 @@
 5. **Security Misconfiguration**
     Misconfigured software, servers, or apps leave vulnerabilities open.
     Demo: Exposing development/debug mode or default admin passwords.
-    Fix: Harden configurations, disable unnecessary features, and regularly audit deployments.
+    Fix: Harden configurations, disable unnecessary features, and regularly audit deployments.  
+
+6. **Vulnerable and Outdated Components**
+    Using libraries or platforms with known vulnerabilities can lead to easy exploits.
+    Demo: An app using outdated jQuery with a known XSS issue.
+    Fix: Regularly update dependencies and use software composition analysis (SCA) tools.
