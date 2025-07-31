@@ -28,3 +28,8 @@
     Using libraries or platforms with known vulnerabilities can lead to easy exploits.
     Demo: An app using outdated jQuery with a known XSS issue.
     Fix: Regularly update dependencies and use software composition analysis (SCA) tools.
+
+7. **Identification and Authentication Failures**
+    Issues with login systems, like weak passwords, session hijacking, or lack of MFA.
+    Demo: Brute-force attack allowed without rate-limiting.
+    Fix: Enforce strong authentication policies and session management.
