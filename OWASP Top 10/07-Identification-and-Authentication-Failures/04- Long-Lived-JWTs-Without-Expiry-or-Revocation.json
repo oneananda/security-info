@@ -1,0 +1,5 @@
+// Long lived JWTs without expiry or revocation 
+{
+	"sub": "user1",
+	"exp": "2099-12-31T00:00:00Z"
+}
